@@ -15,10 +15,8 @@ $ xset r rate 200 60
 ```
 
 The first number is the delay before repeating of the current key
-press starts
-
-The second number is how many repeated key presses will be sent per
-second.
+press starts and the second number is how many repeated key presses
+will be sent per second.
 
 You can set it in the script that starts up your window manager or
 desktop environment,
