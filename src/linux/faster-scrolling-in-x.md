@@ -1,4 +1,4 @@
-title: Lightning Fast Scrolling in X
+title: Lightning Fast Scroll in X
 date: 2025-10-15
 category: linux
 tags: linux, x, i3
