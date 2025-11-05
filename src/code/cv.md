@@ -19,7 +19,8 @@ Significant experience with app security, integrating it with CI/CD and securing
 
 
 ## EXPERIENCE
-— Stibo DX, System architect, 2015 →
+— DNB, Staff Software Engineer, 2025 → present
+— Stibo DX, System architect, 2015 → 2025
 — Conduct AS, Senior consultant, 2013 – 2015
 — Escenic, System architect, 2008 – 2013
 — Escenic, Senior consultant, 2005 – 2008
@@ -89,4 +90,4 @@ Significant experience with app security, integrating it with CI/CD and securing
 — ⚒️ https://github.com/skybert
 — 🛠️ https://gitlab.com/skybert
 
-# BSD                       2025-01-27                          BSD
+# BSD                       2025-11-05                          BSD
