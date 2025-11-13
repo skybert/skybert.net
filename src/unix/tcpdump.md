@@ -18,8 +18,45 @@ both server requests and responses transmitted on my default
 interface (i.e. no```-i```), I use:
 
 ```text
-# tcpdump -l -s0 -w - tcp   | strings
+# tcpdump -l -s0 -w - tcp  | strings
 ```
+
+## Watching all the HTTP traffic - alternative
+
+```text
+$ tcpdump -i lo0 'port 8181 and tcp[13] & 8 = 8 and less 10000' -A -s 0 |
+  grep -v '\.\.\.'
+```
+
+This essentially list all HTTP requests and responses to the service
+running on port `8181`, listening ont he loopback device, `lo0`.
+
+`tcp[13] & 8 = 8` Looks at the TCP headers, only including the ones
+that have the `PSH` flag set. This is typically what you have on HTTP
+repsonses which are meant to be _pushed_, not buffered at the TCP
+level.
+
+`less 10000` includes IP packets that are less than `10,000` bytes. It
+reduces the binary content. You can put this further down, to around
+`2,000`, but then you don't get the response headers of the first
+packet of binary content, e.g. a `gzip`ed payload.
+
+The ` | grep -v '\.\.\.'` ensures that binary packets are removed from
+the output. This works because they contain lots of gibberish like:
+
+```text
+............[......._...@..l....{.u.E....g..h..U
+```
+
+Tested with:
+```text
+$ tcpdump --version
+tcpdump version 4.99.5
+libpcap version 1.10.5
+OpenSSL 3.6.0 1 Oct 2025
+64-bit build, 64-bit time_t
+```
+
 
 ## Watching all communication to and from memcached
 
