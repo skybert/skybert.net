@@ -51,7 +51,7 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 ..
 }
 
-func (model m) updateTable(processe []Process) {
+func (m model) updateTable(processe []Process) {
    rows := ...
    m.table.SetRows(rows)
 ..
@@ -71,7 +71,7 @@ common "receiver" functions, but if you need to alter the state of the
 receiver](https://go.dev/tour/methods/8):
 
 ```go
-func (m *model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
+func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	switch msg := msg.(type) {
 ..
 	case refreshMsg:
@@ -80,7 +80,7 @@ func (m *model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 ..
 }
 
-func (model m) updateTable(processe []Process) {
+func (m *model) updateTable(processe []Process) {
    rows := ...
    m.table.SetRows(rows)
 ..
@@ -126,18 +126,36 @@ from these 20 Go structs" or "this package lacks unit tests, write
 some that make sense, not just silly ones". But the core, prodcution
 code, I can write that myself, thank you very much. 
 
-I've spent 25 years getting as fast as possible, at typing and using
-my editor and programming tools. So I'm fast. The AI robot can produce
-code faster than me, of course, but for starters, this might not be
-the direction I want it to take the code in. And, I still need to
-review and potentially rewrite it. So, considering the entire flow of
-implementing a feature: thinking, coding, testing, reviewing,
-documenting, fixing and extending the code, the speed gains of AI code
-guessing in your editor is not that relevant IMO.
+I've spent 25 years getting as fast as possible. Fast at touch typing,
+which btw, is [Programming's Dirtiest Little
+Secret](http://steve-yegge.blogspot.com/2008/09/programmings-dirtiest-little-secret.html),
+and sharpening my skills, editor and other tools. I'm constantly
+trying to improve my tools and hone my skills.
 
-And of course, as any senior developer will tell you, the coding part
+All of this makes me fast. I am fast. Of course, the AI robot can
+produce code much faster than me. Of course. But for starters, it's
+not always it takes the solution into the direction I want it to
+go. It doesn't necessarily choose my _style_ of programming, choosing
+the solution which makes the new code blend in with the existing
+one. Or sometimes, I have problems comprehending what the robot did
+because it doesn't follow my line of thinking. If I'm then pressed for
+time, or am demotivated from all the vibing, I might just commit the
+code and forget about it. Which of course, makes me drift further away
+from the code.
+
+Regardless of all of this, what's for sure, is that I will alays need
+to review what the robot did, and potentially rewrite it. It's not
+like the AI writes some code and that's the end of the story. Thus,
+when considering the entire flow of implementing a feature: thinking
+through the problem, designing a solution, writing code to implement
+it, testing the feature, reviewing the code changes, documenting it,
+fixing bugs or corner cases, and later extending the code; the speed
+gains of having AI code inserted into your editor is not that relevant
+IMO.
+
+And of course,, as any senior developer will tell you, the coding part
 is not what you spend most of your time at work doing anyway. For
 that's <s>thinking</s> meetings!
 
-
+Happy <s>vibe</s> coding anyone!
 
