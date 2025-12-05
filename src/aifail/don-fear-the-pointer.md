@@ -137,7 +137,7 @@ guessing in your editor is not that relevant IMO.
 
 And of course, as any senior developer will tell you, the coding part
 is not what you spend most of your time at work doing anyway. For
-that's ~~thinking~~ meetings!
+that's <s>thinking</s> meetings!
 
 
 
