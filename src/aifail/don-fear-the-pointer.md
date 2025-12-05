@@ -12,7 +12,7 @@ set out to write my own top like app in [Go](https://go.dev/) so that
 I can use it on Linux too.
 
 The first version of my resource monitory, I called it
-[ytop](github.com/skybert/ytop) since the `y` was available, was coded
+[ytop](https://github.com/skybert/ytop) since the `y` was available, was coded
 in Emacs without an AI assistant, like Copilot. However, I *did* use
 Copilot in a browser window to get code snippets for things like
 "create a table using this TUI framework" and so on. Using Copilot as
