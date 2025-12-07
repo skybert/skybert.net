@@ -108,40 +108,48 @@ didn't really learn from it. I didn't feel the pain, so I didn't learn
 from my mystake. When I one week later encountered the same problem, I
 had nothing to counter it with.
 
-My takeway from all of this, is that using AI tools takes away
-something from you as a developer. In addition to taking away the joy
-of programming and solving problems on your own, there's something
-just as bad: It makes you sloppy. I could've chosen many words, but I
-think "sloppy" fits the bill perfectly. You don't become a worse
-programming. You can still buckle up and get back into it. But you
+My takeway from all of this, is that using AI tools takes away some
+things from you as a developer. First off, is the the pure joy of
+programming and solving problems on your own. Yes, I've heard "AI is
+just another abstraction layer" and "AI is just another tool"
+arguments. I do follow the line of reasoning, but I don't quite accept
+them. If we instead of "artificial intelligence" called it "guessing
+machine" we would all be in a better place discussing this new
+technology.
+
+Anyways, AI takes away another thing from coders that's just as bad as
+the joy of coding itself, and this is my main point in this article:
+*AI makes you sloppy*. I could've chosen many words, but I think
+"sloppy" fits the bill perfectly. You don't become a worse
+programmer. You can still buckle up and get back into it. But you
 become lazy. Sloppy.
 
-I will not stop using AI tools, but for apps that I care about, that I
-am to _maintain_ with a high level of effectiveness and quality, I
-will do the coding myself. I will use AI for resarch (always cross
-checking with actual references, AI is a fancy word for "guessing
-machine"!) and brain storming. I'll let it create PoCs and I will use
-it for code I don't really care about, like "create a JSON structure
-from these 20 Go structs" or "this package lacks unit tests, write
-some that make sense, not just silly ones". But the core, prodcution
-code, I can write that myself, thank you very much. 
+So am I not using AI then? No, not at all. I will not stop using AI
+tools, but for apps that I care about, that I am to _maintain_ with a
+high level of effectiveness and quality, I will do the coding
+myself. I will use AI for resarch (always cross checking with actual
+references. AI regularly dreams up code that calls APIs that don't
+exist) and brain storming. I'll let it create PoCs and I will use it
+for code I don't really care about, like "create a JSON structure from
+these 20 Go structs" or "this package lacks unit tests, write some
+that make sense, not just silly ones". But the core, prodcution code,
+I can write that myself, thank you very much.
 
 I've spent 25 years getting as fast as possible. Fast at touch typing,
 which btw, is [Programming's Dirtiest Little
 Secret](http://steve-yegge.blogspot.com/2008/09/programmings-dirtiest-little-secret.html),
-and sharpening my skills, editor and other tools. I'm constantly
-trying to improve my tools and hone my skills.
-
-All of this makes me fast. I am fast. Of course, the AI robot can
-produce code much faster than me. Of course. But for starters, it's
-not always it takes the solution into the direction I want it to
-go. It doesn't necessarily choose my _style_ of programming, choosing
-the solution which makes the new code blend in with the existing
-one. Or sometimes, I have problems comprehending what the robot did
-because it doesn't follow my line of thinking. If I'm then pressed for
-time, or am demotivated from all the vibing, I might just commit the
-code and forget about it. Which of course, makes me drift further away
-from the code.
+and honing my skills, and sharpening my venerable editor and other
+tools. All of this makes me very fast. Of course, the AI robot can
+produce code even faster than me. Much faster. Of course, it's a robot
+after all! But for starters, it's not always it takes the solution
+into the direction I want it to go. It doesn't necessarily choose my
+_style_ of programming, choosing the solution which makes the new code
+blend in with the existing one. Or sometimes, I have problems
+comprehending what the robot did because it doesn't follow my line of
+thinking. If I'm then pressed for time, or am demotivated from all the
+vibing, I might just commit the code and forget about it. When there's
+a problem in this code, I just vibe some more. Which of course, makes
+me drift further away from the code.
 
 Regardless of all of this, what's for sure, is that I will alays need
 to review what the robot did, and potentially rewrite it. It's not
