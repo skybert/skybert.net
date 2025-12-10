@@ -104,7 +104,7 @@ on the AI machine).
   <img
     class="centered"
     src="/graphics/2025/ytop-with-copilot.png"
-    style="width: 1024px"
+    style="width: 100%"
     alt="Emacs and Copilot in a web browser"
   />
 </a>
@@ -151,10 +151,11 @@ thank you very much.
 I've spent 25 years getting as fast as possible. Fast at touch typing,
 which btw, is [Programming's Dirtiest Little
 Secret](http://steve-yegge.blogspot.com/2008/09/programmings-dirtiest-little-secret.html),
-and honing my skills, and optimising my editor and and programming
-tool, what [Franklin
+honing my coding skills, optimising my editor and programming tools,
+what [Franklin
 Covey](https://www.franklincovey.com/courses/the-7-habits/habit-7/) in
-his famous book calls "sharpen the saw". All of this makes me
+his book calls "sharpen the saw". I sharpen my saw constantly. I read
+a lot, I experiment a lot and I _practice_ a lot. This makes me
 fast. Very fast.
 
 Of course, the AI robot can produce code even faster than me. Much
@@ -173,15 +174,15 @@ Regardless of all of this, what's for sure, is that I will always need
 to review what the robot did, and potentially rewrite it. It's not
 like the AI writes some code and that's the end of the story. Thus,
 when considering the entire flow of implementing a feature: thinking
-through the problem, designing a solution, writing code to implement
-it, testing the feature, reviewing the code changes, documenting it,
-fixing bugs and ironing out corner cases, and later extending the
-code; the speed gains of having AI code inserted into your editor is
-not that relevant IMO.
+through the problem, designing a solution, writing code to make it
+work, testing the feature, reviewing the code changes, documenting it,
+fixing bugs, ironing out corner cases, and later extending the code;
+the speed gains of having AI code inserted into your editor is not
+that relevant IMO.
 
-And of course,, as any senior developer will tell you, the coding part
-is not what you spend most of your time at work doing anyway. For
-that's meetings!
+And of course, as any developer will tell you, the coding part is not
+what you spend most of your time at work doing anyway. For that's
+meetings!
 
 Happy <s>vibe</s> coding anyone!
 
@@ -190,6 +191,6 @@ Happy <s>vibe</s> coding anyone!
     class="centered"
     src="/graphics/2025/ytop.png"
     alt="ytop resource monitor"
-    style="width: 1024px"
+    style="width: 100%"
   />
 </a>
