@@ -27,15 +27,15 @@ $ ls /tmp/{foo,Foo,FoO,fOO}
 Let's check that they can contain different things as well:
 
 ```perl
-$ for el in /tmp/{foo,Foo,FoO,fOO}; do gdate +%s > $el; done
+$ for el in /tmp/{foo,Foo,FoO,fOO}; do echo $RANDOM > $el; done
 $ cat /tmp/{foo,Foo,FoO,fOO}
-1765973567
-1765973567
-1765973567
-1765973567
+22247
+22247
+22247
+22247
 ```
 
-Woot?! The same timestamp in all of them?
+Woot?! The same integer in all of them?
 
 Let's check the inodes of the files:
 
