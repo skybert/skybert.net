@@ -22,23 +22,27 @@ conf
 here](https://gitlab.com/skybert/my-little-friends/-/blob/master/aerospace/.aerospace.toml#L1)
 
 I dearly missed a floating, transparent clock, a minimalistic menu bar
-(like `ibar`) and a better resource monitor (`top`) than what ships
-with macOS. To close these gaps, I've written the folowing apps:
+(like `ibar`), quickly jump to any window using fuzzy search, as well
+as a better resource monitor (`top`) than what ships with macOS. To
+close these gaps, I wrote the folowing apps:
 
-- [yclock](https://github.com/skybert/yclock) (Swift)
 - [ybar](https://github.com/skybert/ybar) (Swift)
+- [yclock](https://github.com/skybert/yclock) (Swift)
+- [yjump](https://github.com/skybert/yjump) (Swift)
 - [ytop](https://github.com/skybert/ytop) (Go)
 
-The Swift apps `yclock` and `ybar` were vibe coded (I don't care about
-the code, I just wanted to get apps that fit my need), whereas `ytop`
-was written without any AI help.
+The Swift apps `yjump`, `yclock` and `ybar` were vibe coded (I don't
+care about the code, I just wanted to get apps that fit my need),
+whereas `ytop` was written without any AI help.
 
+### yclock
 <img
   class="centered"
   src="https://github.com/skybert/yclock/blob/main/doc/yclock-analogue.png"
   alt="yclock"
 />
 
+### ytop
 <img
   class="centered"
   src="https://raw.githubusercontent.com/skybert/ytop/main/doc/screenshot-macos.png"
@@ -46,10 +50,19 @@ was written without any AI help.
   style="width: 70%"
 />
 
+### ybar
 <img
   class="centered"
   src="https://github.com/skybert/ybar/blob/main/doc/screenshot.png"
   alt="ybar"
+  style="width: 70%"
+/>
+
+### yjump
+<img
+  class="centered"
+  src="https://github.com/skybert/yjump/blob/main/screenshot.png?raw=true"
+  alt="yjump with fuzzy search for windows"
   style="width: 70%"
 />
 
