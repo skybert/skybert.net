@@ -142,7 +142,7 @@ about the details (like tests and converting between different data
 formats), where I "just want to make it work". I've gotten extensive
 experience in using [GitHub Copilot
 CLI](https://github.com/features/copilot/cli/), developing three full
-apps from scratch with it, and using it to fix failing test cases and have had AI completion available in my editor for a couple of years already (I've turned it off, though. Find it distracting).
+apps from scratch with it, and using it to fix failing test cases. I've also have had AI completion configured in my editor for a couple of years already (I've turned it off, though).
 
 ## Thanks!
 
