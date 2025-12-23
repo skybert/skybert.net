@@ -43,14 +43,14 @@ was written without any AI help.
   class="centered"
   src="https://raw.githubusercontent.com/skybert/ytop/main/doc/screenshot-macos.png"
   alt="ytop"
-  style="width: 100%"
+  style="width: 70%"
 />
 
 <img
   class="centered"
   src="https://github.com/skybert/ybar/blob/main/doc/screenshot.png"
   alt="ybar"
-  style="width: 100%"
+  style="width: 70%"
 />
 
 ## Go
@@ -99,7 +99,7 @@ then:
   class="centered"
   src="https://media.hachyderm.io/media_attachments/files/114/585/492/343/416/200/original/bb3cc161811991de.png"
   alt="Garuda Linux"
-  style="width: 100%"
+  style="width: 70%"
 />
 
 ## AI
