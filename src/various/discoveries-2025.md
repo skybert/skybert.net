@@ -19,12 +19,11 @@ manager. The best I have found, is
 like, but still far from it. It's slower and has lots of bugs. Still,
 it makes working on macOS bearable. You may check out [my Aerospace
 conf
-here](https://gitlab.com/skybert/my-little-friends/-/blob/master/aerospace/.aerospace.toml#L1)
+here](https://gitlab.com/skybert/my-little-friends/-/blob/master/aerospace/.aerospace.toml#L1).
 
-I dearly missed a floating, a transparent clock, a minimalistic menu
-bar (like `i3bar`), to quickly jump to any window using fuzzy search
-(like `rofi`), as well as a better resource monitor (`top`) than what
-ships with macOS. To close these gaps, I wrote the apps myself since I
+I dearly missed a floating, transparent clock, a minimalistic menu
+bar (like `i3bar`), the ability to quickly jump to any window using fuzzy search
+(like `rofi`), as well as a better resource monitor (`top`). To close these gaps, I wrote the apps myself since I
 couldn't find any existing ones that did _exactly_ what I wanted:
 
 - [ybar](https://github.com/skybert/ybar) (Swift)
@@ -70,21 +69,20 @@ them to), whereas `ytop` was written without any AI assistance.
 ## Go
 
 I've learned a new programming language, [Go](https://go.dev/), and
-must say I like it! As for learning ressources, I can recommend the
-book I read, [Learning
-Go](https://www.oreilly.com/library/view/learning-go/9781492077206/),
-it was my primary learning resource, in addition to [Effective
+must say I like it! As for learning ressources, I can recommend the book, [Learning
+Go](https://www.oreilly.com/library/view/learning-go/9781492077206/).
+It was my primary learning resource, in addition to [Effective
 Go](https://go.dev/doc/effective_go). For the first couple of months,
 I refrained from using AI in any form to assist me as I wanted to
 learn Go the hard way as it [makes me better remember what I
 learn](https://skybert.net/aifail/dont-fear-the-pointer/).
 
 Naturally, I made a number of enhancements to my Emacs configuation to
-make it an excellent editor for writing Go programs. I have documented
+make it into a powerful editor for writing Go programs. I have documented
 all these steps in [this YouTube
 video](https://www.youtube.com/watch?v=p_xX_vX8M7g). The Emacs
 configuration changes can be found in my
-[.emacs](https://gitlab.com/skybert/my-little-friends/-/blob/master/emacs/.emacs#L882)
+[.emacs](https://gitlab.com/skybert/my-little-friends/-/blob/master/emacs/.emacs#L882).
 
 Picture from my home office where I spent several weekends getting
 into Go:
@@ -102,8 +100,7 @@ I've learned a new authorization language, Rego from [Open Policy
 Agent](https://www.openpolicyagent.org/docs/policy-language#entrypoint)
 (OPA).
 
-For running tests from Emacs, I wrote [the elisp function
-tkj/opa-test-current-file](https://gitlab.com/skybert/my-little-friends/-/blob/master/emacs/.emacs#L996)
+Emacs/Eglot together with the Regal language server makes for a decent editing environment. It didn't provide an easy way to run tests, so to run Rego tests from Emacs, I wrote [this elisp function](https://gitlab.com/skybert/my-little-friends/-/blob/master/emacs/.emacs#L996).
 
 
 ## Garuda Linux
@@ -129,13 +126,6 @@ thought long and hard about how to use AI and what AI assisted coding
 called [Don't fear the
 pointer](https://skybert.net/aifail/dont-fear-the-pointer/).
 
-For the record, I use AI every day, for resarch and code I don't care
-about the details (like tests and converting between different data
-formats), where I "just want to make it work". I've gotten extensive
-experience in using [GitHub Copilot
-CLI](https://github.com/features/copilot/cli/), developing three full
-apps from scratch with it, and using it to fix failing test cases.
-
 I think [this article on AI in
 art](https://theoatmeal.com/comics/ai_art) and [this
 graphic](https://hachyderm.io/@VeroniqueB99@mastodon.social/114411941307880367)
@@ -146,6 +136,13 @@ sums it up perfectly:
   src="https://media.hachyderm.io/cache/media_attachments/files/114/411/941/281/223/057/original/6db843dab8c1df4b.png"
   alt="quote about AI ending up doing the interesting things and humans doing the chores"
 />
+
+For the record, I use AI every day, for resarch and code I don't care
+about the details (like tests and converting between different data
+formats), where I "just want to make it work". I've gotten extensive
+experience in using [GitHub Copilot
+CLI](https://github.com/features/copilot/cli/), developing three full
+apps from scratch with it, and using it to fix failing test cases and have had AI completion available in my editor for a couple of years already (I've turned it off, though. Find it distracting).
 
 ## Thanks!
 
