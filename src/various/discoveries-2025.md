@@ -65,8 +65,9 @@ I refrained from using AI in any form to assist me as I wanted to
 learn Go the hard way as it [makes me better remember what I
 learn](https://skybert.net/aifail/dont-fear-the-pointer/).
 
-Consequently, I made a number of enhancements to my Emacs
-configuation, which I have documented in [this YouTube
+Naturally, I made a number of enhancements to my Emacs configuation to
+make it an excellent editor for writing Go programs. I have documented
+all these steps in [this YouTube
 video](https://www.youtube.com/watch?v=p_xX_vX8M7g). The Emacs
 configuration changes can be found in my
 [.emacs](https://gitlab.com/skybert/my-little-friends/-/blob/master/emacs/.emacs#L882)
