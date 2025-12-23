@@ -29,8 +29,10 @@ with macOS. To close these gaps, I've written the folowing apps:
 - [ybar](https://github.com/skybert/ybar) (Swift)
 - [ytop](https://github.com/skybert/ytop) (Go)
 
-The Swift apps `yclock` and `ybar` were vibe coded, whereas `ytop` was
-written without any AI help.
+The Swift apps `yclock` and `ybar` were vibe coded (I don't care about
+the code, I just wanted to get apps that fit my need), whereas `ytop`
+was written without any AI help.
+
 <img
   class="centered"
   src="https://github.com/skybert/yclock/blob/main/doc/yclock-analogue.png"
@@ -99,6 +101,37 @@ then:
   alt="Garuda Linux"
   style="width: 100%"
 />
+
+## AI
+
+AI is being shoved down our throuts whether we want it or not. I've
+thought long and hard about how to use AI and what AI assisted coding
+(vibing included) does to us. I've written this article about it,
+called [Don't fear the
+pointer](https://skybert.net/aifail/dont-fear-the-pointer/).
+
+For the record, I use AI every day, for resarch and code I don't care
+about the details (like tests and data formats), where I "just want to
+make it work". I've gotten extensive experience in using [GitHub
+Copilot CLI ](https://github.com/features/copilot/cli/), developing
+two full apps from scratch with it, and using it to fix failing test
+cases.
+
+I think [this article on AI in
+art](https://theoatmeal.com/comics/ai_art) and [this graphic](https://hachyderm.io/@VeroniqueB99@mastodon.social/114411941307880367) sums it up perfectly:
+
+<img
+  class="centered"
+  src="https://media.hachyderm.io/cache/media_attachments/files/114/411/941/281/223/057/original/6db843dab8c1df4b.png"
+  alt="quote about AI ending up doing the interesting things and humans doing the chores"
+/>
+
+## Thanks!
+
+And with that, I'm signing off, looking forward to new technological
+challenges in 2026. TTFN!
+
+
 
 
 
