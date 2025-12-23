@@ -1,7 +1,7 @@
 title: My Discoveries in 2025
 date: 2025-12-23
 category: various
-tags: various
+tags: various, ai, emacs, go, rego 
 
 ## macOS
 
