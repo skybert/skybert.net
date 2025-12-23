@@ -7,7 +7,7 @@ tags: various
 
 For the first time since 2000, I'm not using Linux as my main
 workstation. Moving to macOS has been an interesting experience and
-I've made many tweaks and hacks to make it a more comfortable Unix
+I've made many tweaks and hacks to make it a comfortable Unix
 environment. Among other things, I've written
 [install-unix-env-on-macos.sh](https://gitlab.com/skybert/my-little-friends/-/blob/master/macos/install-unix-env-on-macos.sh#L1)
 which configures many macOS features and installs the applications I
@@ -56,7 +56,14 @@ was written without any AI help.
 ## Go
 
 I've learned a new programming language, [Go](https://go.dev/), and
-must say I like it!
+must say I like it! As for learning ressources, I can recommend the
+book I read, [Learning
+Go](https://www.oreilly.com/library/view/learning-go/9781492077206/),
+it was my primary learning resource, in addition to [Effective
+Go](https://go.dev/doc/effective_go). For the first couple of months,
+I refrained from using AI in any form to assist me as I wanted to
+learn Go the hard way as it [makes me better remember what I
+learn](https://skybert.net/aifail/dont-fear-the-pointer/).
 
 Consequently, I made a number of enhancements to my Emacs
 configuation, which I have documented in [this YouTube
@@ -73,10 +80,6 @@ into Go:
   style="width: 70%"
 />
 
-I can recommend the book I read, [Learning
-Go](https://www.oreilly.com/library/view/learning-go/9781492077206/),
-it was my primary learning resource, in addition to [Effective
-Go](https://go.dev/doc/effective_go).
 
 ## Rego
 
