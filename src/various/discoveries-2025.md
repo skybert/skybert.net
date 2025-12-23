@@ -70,6 +70,7 @@ into Go:
   class="centered"
   src="https://media.hachyderm.io/media_attachments/files/114/336/289/584/163/488/original/7a7555c831071f33.jpg"
   alt="Reading an excellent Go book and coding in Emacs"
+  style="width: 70%"
 />
 
 I can recommend the book I read, [Learning
