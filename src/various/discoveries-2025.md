@@ -137,12 +137,12 @@ sums it up perfectly:
   alt="quote about AI ending up doing the interesting things and humans doing the chores"
 />
 
-For the record, I use AI every day, for resarch and code I don't care
+For the record, I use AI every day: For resarch and code where I don't care
 about the details (like tests and converting between different data
-formats), where I "just want to make it work". I've gotten extensive
+formats). For the cases where I "just want to make it work". I've gotten extensive
 experience in using [GitHub Copilot
 CLI](https://github.com/features/copilot/cli/), developing three full
-apps from scratch with it, and using it to fix failing test cases. I've also have had AI completion configured in my editor for a couple of years already (I've turned it off, though).
+apps from scratch with it, and using it to fix failing test cases. I've also have had AI completion configured in my editor for a couple of years already, it sure is fun in the beginning (I've turned it off, though).
 
 ## Thanks!
 
