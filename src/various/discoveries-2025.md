@@ -36,35 +36,44 @@ care about the code, I just wanted to get apps that did what I wanted
 them to), whereas `ytop` was written without any AI assistance.
 
 ### yclock
-<img
-  class="centered"
-  src="https://github.com/skybert/yclock/blob/main/doc/yclock-analogue.png"
-  alt="yclock"
-/>
+<a href="/graphics/2025/yclock-analogue.png">
+  <img
+    class="centered"
+    src="/graphics/2025/yclock-analogue.png"
+    alt="yclock"
+    style="width: 40%"
+  />
+</a>
 
 ### ytop
-<img
-  class="centered"
-  src="https://raw.githubusercontent.com/skybert/ytop/main/doc/screenshot-macos.png"
-  alt="ytop"
-  style="width: 70%"
-/>
+<a href="/graphics/2025/ytop.png">
+  <img
+    class="centered"
+    src="/graphics/2025/ytop.png"
+    alt="ytop"
+    style="width: 70%"
+  />
+</a>
 
 ### ybar
-<img
-  class="centered"
-  src="https://github.com/skybert/ybar/blob/main/doc/screenshot.png"
-  alt="ybar"
-  style="width: 70%"
-/>
+<a href="/graphics/2025/ybar.png">
+  <img
+    class="centered"
+    src="/graphics/2025/ybar.png"
+    alt="ybar"
+    style="width: 70%"
+  />
+</a>
 
 ### yjump
-<img
-  class="centered"
-  src="https://github.com/skybert/yjump/blob/main/screenshot.png?raw=true"
-  alt="yjump with fuzzy search for windows"
-  style="width: 70%"
-/>
+<a href="/graphics/2025/yjump.png">
+  <img
+    class="centered"
+    src="/graphics/2025/yjump.png"
+    alt="yjump with fuzzy search for windows"
+    style="width: 70%"
+  />
+</a>
 
 ## Go
 
@@ -137,12 +146,17 @@ sums it up perfectly:
   alt="quote about AI ending up doing the interesting things and humans doing the chores"
 />
 
-For the record, I use AI every day: For resarch and code where I don't care
-about the details (like tests and converting between different data
-formats). For the cases where I "just want to make it work". I've gotten extensive
-experience in using [GitHub Copilot
-CLI](https://github.com/features/copilot/cli/), developing three full
-apps from scratch with it, and using it to fix failing test cases. I've also have had AI completion configured in my editor for a couple of years already, it sure is fun in the beginning (I've turned it off, though).
+For the record, I use AI every day: For resarch, to explain code
+(e.g. "what does the bit shifting in this `tcpdump` command do?") and
+to review code I've just written (e.g. "can this be written more
+pythonic?"), and code where I don't care about the details (like tests
+and converting between different data formats). For the cases where I
+"just want to make it work". I've gotten extensive experience in using
+[GitHub Copilot CLI](https://github.com/features/copilot/cli/),
+developing three full apps from scratch with it, and using it to fix
+failing test cases. I've also have had AI completion configured in my
+editor for a couple of years already, it sure is fun in the beginning
+(I've turned it off, though).
 
 ## Thanks!
 
