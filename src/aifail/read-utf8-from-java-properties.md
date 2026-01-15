@@ -44,6 +44,12 @@ character:
 greeting=👻
 ```
 
+The properties file was encoded properly as UTF-8:
+```text
+$ file messages.properties
+messages.properties: Unicode text, UTF-8 text
+```
+
 The Copilot Java source code (I added the comment `// Copilot
 solution`) copy and pasted into a file called `utf.java`:
 
