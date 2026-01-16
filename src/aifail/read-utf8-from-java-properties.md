@@ -20,7 +20,7 @@ Its answer has three problems:
 
 1. The test data can be written with ISO-8859-1 encoding, so it
    doesn't prove that UTF-8 is working.
-2. What's worse, it doesn't work. 
+2. What's worse, it doesn't work.
 3. Lastly, it gives the impression that this used to be a problem, but
    is no longer, listing different Java versions and so on, adding
    credibility to its answer. But alas, it doesn't work. You have to
@@ -96,3 +96,12 @@ this AI robot, though, you should verify it. My hunch is, though, most
 of the time, people don't.
 
 Good grief.
+
+It should be noted, that the above was using the Copilot
+_chat_. Giving the same prompts to Copilot CLI, which has access to
+your machine and file system, so that it can try out things before
+suggesting them, arrived at the working solution on the first try. My
+findings still shocks me. Most people use the chat.
+
+Happy encoding!
+
