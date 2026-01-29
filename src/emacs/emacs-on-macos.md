@@ -6,14 +6,14 @@ tags: emacs, macos
 The best Emacs distribution I've found for macOS, is
 [emacs-plus](https://github.com/d12frosted/homebrew-emacs-plus).
 
-# Install Emacs Plus
+## Installing Emacs Plus
 
 ```text
 $ brew tap d12frosted/emacs-plus
 $ brew install emacs-plus@31 --with-imagemagick
 ```
 
-# Upgrading Emacs Plus
+## Upgrading Emacs Plus
 
 There's no real upgrade of emacs with brew, so uninstall it first to
 ensure the upgrade goes at intended:
