@@ -1,6 +1,6 @@
 title: Don't Fear the Pointer
 date: 2025-12-05
-category: aifail
+category: llm
 tags: aifail, go, ai, llm
 
 I'm currently developing my own

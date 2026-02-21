@@ -2,7 +2,7 @@
 {% block breadcrumb %}{% include "breadcrumb.html" %}{% endblock %}
 {% block title %}Archives for {{ SITENAME }}{% endblock %}
 {% block content %}
-    <ul>
+    <ol>
     {% for article in dates %}
       {% set this_year = article.date.strftime('%Y') %}
       {% set this_month = article.date.strftime('%B') %}
@@ -12,5 +12,5 @@
         (written {{ this_month }} {{ this_day }} {{ this_year }})
       </li>
     {% endfor %}
-    </ul>
+    </ol>
 {% endblock %}

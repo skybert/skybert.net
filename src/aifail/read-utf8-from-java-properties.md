@@ -1,6 +1,6 @@
 title: Copilot cannot read UTF-8 from a Java Properties File
 date: 2026-01-15
-category: aifail
+category: llm
 tags: aifail, utf-8, java, copilot
 
 I'm speechless: Copilot get this well understood, old problem with a
