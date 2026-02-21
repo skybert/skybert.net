@@ -1,6 +1,6 @@
-    <div id="menu">
+    <div class="foomenu">
       <hr/>
-      ~ <a href="{{SITEURL}}">/home</a> ⌂ ~
+      ~ <a href="{{SITEURL}}">/home</a> 🏠 ~
       <a href="{{SITEURL}}/talks">talks</a> 💬 ~
       {% for cat, art in categories %}
       <a href="{{ SITEURL }}/category/{{ cat | replace(" ", "-") }}.html">
@@ -20,7 +20,7 @@
       ~
     </div>
     <hr/>
-    <div style="text-align: center;">
+    <div class="foomenu">
       Licensed under CC BY
       <a rel="license"
          href="http://creativecommons.org/licenses/by/4.0/">
@@ -29,6 +29,11 @@
              title="This work is relased under the Creative Commons Attribution 4.0 International License"
              src="https://i.creativecommons.org/l/by/4.0/80x15.png"
         />
+      </a>
+      ~
+      📡
+      <a href="https://skybert.net/feeds/atom-feed.xml">
+        RSS feed
       </a>
       ~
       ✉

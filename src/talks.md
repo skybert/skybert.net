@@ -2,7 +2,7 @@ title: Talks
 date: 2015-09-13
 url: talks
 save_as: talks/index.html
-category: misc
+category: various
 
 ## Java coding in Emacs
 

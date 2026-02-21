@@ -88,10 +88,8 @@ Also, the XHTML standard stresses lowercase;
 the <a href="http://www.w3.org/TR/html/#h-4.2">XHTML
 specification</a> states that:
 
-<blockquote>
-XHTML documents must use lower case for all HTML element and
-attribute names.
-</blockquote>
+>XHTML documents must use lower case for all HTML element and attribute names.
+
 ## Time to type
 
 It takes longer to constantly switch case. You either have
@@ -101,8 +99,6 @@ don't need to? I believe not all UPPERCASE writers have
 considered this point. Just try one day, writing everything
 lowercase and feel the difference in speed and strain on
 your fingers :-)
-
-<hr/>
 
 So, I ask again (and please take a good think before answering), why
 do we argue about this, why don't everyone just use lowercase?

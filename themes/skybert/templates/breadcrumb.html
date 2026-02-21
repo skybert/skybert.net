@@ -1,5 +1,5 @@
 <div id="breadcrumb">
-  <a href="{{ SITEURL }}">⌂</a> →
+  <a href="{{ SITEURL }}">🏠</a> →
   {% if article %}
     {% if article.category %}
   <a href="{{ SITEURL }}/{{ article.category.url }}">
@@ -14,7 +14,7 @@
         </span>
       {% endfor %}
     {% endif %}
-    :: written {{ article.date.strftime('%Y-%m-%d') }}
+    :: ✏️ {{ article.date.strftime('%Y-%m-%d') }}
   {% else %}
     {% if page %}{{ page.title }}{% endif %}
     {% if tag %}#{{ tag }}{% endif %}

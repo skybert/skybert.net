@@ -1,6 +1,6 @@
 title: Return to Monkey Island
 date: 2022-09-26
-category: games
+category: life
 tags: games, linux
 
 <div class="pictures">

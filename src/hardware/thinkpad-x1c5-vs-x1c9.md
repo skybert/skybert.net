@@ -1,6 +1,6 @@
 title: This is how much faster Thinkpad X1 Carbon Gen 9 is than Gen 5
 date: 2021-05-04
-category: hardware
+category: various
 tags: hardware, speed, maven, java
 
 ## Compile large Java project

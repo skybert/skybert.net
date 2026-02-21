@@ -1,5 +1,5 @@
 date:    2012-10-07
-category: misc
+category: various
 tags: hardware
 title: Hardware tests
 
@@ -13,7 +13,7 @@ Speed tests of hardware I've used.
 - Serial: 15VS10NQTBZW
 - Size: 238GiB (256GB)
 
-```
+```perl
 # for el in $(seq 0 9); do hdparm -tT /dev/sda; done
 /dev/sda:
  Timing cached reads:   12342 MB in  2.00 seconds = 6174.90 MB/sec
@@ -63,7 +63,7 @@ Speed tests of hardware I've used.
 - Device: "SVP100S"
 - Revision: "CJRA"
 
-```
+```perl
 # for el in $(seq 0 9); do hdparm -tT /dev/sda; done
 /dev/sda:
 Timing cached reads:   3312 MB in  2.00 seconds = 1657.53 MB/sec
@@ -112,7 +112,7 @@ Timing buffered disk reads: 536 MB in  3.01 seconds = 178.11 MB/sec
 - Device: "MMCRE64G"
 - Revision: "VAM0"
 
-```
+```perl
 # for el in $(seq 0 9); do hdparm -tT /dev/sda; done
 /dev/sda:
 Timing cached reads:   5062 MB in  2.00 seconds = 2536.36 MB/sec

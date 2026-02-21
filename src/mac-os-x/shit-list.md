@@ -2,7 +2,7 @@ date:    2012-10-07
 category: mac-os-x
 title: My Mac OS X Shit List
 
-## Forewords
+## Foreword
 
 I'm no Mac guru, it could be that I've missed something really obvious
 somewhere, but these are nevertheless some issues that I find hugely
@@ -89,8 +89,9 @@ Re-mapping is probably possible, but it's not as straight
 forward as all other Unixes makes it.
 
 ## Doesn't follow the file hierarchy standard
-<p>Another hugely annoying thing for someone used to other
-Unixes and Unix like operation systems.
+
+Another hugely annoying thing for someone used to other Unixes and
+Unix like operation systems.
 
 It's equally annoying since Mac OS X claims to be a modern
 Unix, and is in some respects, a very old and silly
@@ -99,11 +100,9 @@ incarnation of it.
 - `/Volumes` not `/mnt` or `/media`
 - `/Users` not `/home`
 
-It's close to impossible to change this as
-well. `/home` is on Mac, unlike any other Unix on
-the planet I've used, not the default home area for users, but
-a special area for users that log in using SSH.
-
+It's close to impossible to change this as well. `/home` is on Mac,
+unlike any other Unix on the planet I've used, not the default home
+area for users, but a special area for users that log in using SSH.
 
 I found it close to impossible to change this behaviour so that my
 user had its `$HOME` under `/home`.
@@ -128,12 +127,12 @@ to on Linux) in Mac OS X.
 ### Double/tripple clicking doesn't consider the terminal contents
 
 After using <a
-href="http://software.schmorp.de/pkg/rxvt-unicode.html">urxvt</a>
-for years, I've gotten rather spoiled with its grandour. One
-such detail, is the click intelligence. It always does what I
-want: double clicking on a URI in the terminal should select
-it. However. Terminal just highlight the entire line, even
-thoug there is no text on the entire line.
+href="http://software.schmorp.de/pkg/rxvt-unicode.html">urxvt</a> for
+years, I've gotten rather spoiled with its grandour. One such detail,
+is the click intelligence. It always does what I want: double clicking
+on a URI in the terminal should select it. However. Terminal just
+highlight the entire line, even thoug there is no text on the entire
+line.
 
 Hence, Terminal doesn't consider the actual contents of the
 window when applying click events to it.

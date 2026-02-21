@@ -1,8 +1,6 @@
 date: 2014-11-22
 title: Discoveries
 
----
-
 ## 2024
 
 ### Python

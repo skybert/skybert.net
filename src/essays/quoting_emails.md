@@ -1,13 +1,11 @@
 date:    2012-10-07
-category: essays
+category: craftsmanship
 title: Quoting Emails
-<blockquote>
-A: Because it messes up the order in which people normally
-read text.<br/>
-Q: Why is it such a bad thing?<br/>
-A: Top-posting.<br/>
-Q: What is the most annoying thing on usenet and in e-mail?
-</blockquote>
+
+> A: Because it messes up the order in which people normally read text.
+> Q: Why is it such a bad thing?
+> A: Top-posting.
+> Q: What is the most annoying thing on usenet and in e-mail?
 
 Very few people these days knows the good practice of
 quoting. Proper email quoting makes all email correspondence

@@ -1,4 +1,4 @@
-gtitle: Investigate what file(s) an app opens
+title: Investigate what file(s) an app opens
 date: 2022-10-17
 category: linux
 tags: linux, strace

@@ -1,6 +1,6 @@
 title: Books of 2018
 date: 2019-01-02
-category: book
+category: life
 tags: book
 
 These are the books I've read in 2018.
