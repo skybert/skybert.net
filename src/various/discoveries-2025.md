@@ -41,7 +41,7 @@ them to), whereas `ytop` was written without any AI assistance.
     class="centered"
     src="/graphics/2025/yclock-analogue.png"
     alt="yclock"
-    style="width: 40%"
+    style="width: 200px"
   />
 </a>
 
@@ -51,7 +51,7 @@ them to), whereas `ytop` was written without any AI assistance.
     class="centered"
     src="/graphics/2025/ytop.png"
     alt="ytop"
-    style="width: 70%"
+    style="width: 800px"
   />
 </a>
 
@@ -71,7 +71,7 @@ them to), whereas `ytop` was written without any AI assistance.
     class="centered"
     src="/graphics/2025/yjump.png"
     alt="yjump with fuzzy search for windows"
-    style="width: 70%"
+    style="height: 400px"
   />
 </a>
 
@@ -95,12 +95,14 @@ configuration changes can be found in my
 
 Picture from my home office where I spent several weekends getting
 into Go:
-<img
-  class="centered"
-  src="https://media.hachyderm.io/media_attachments/files/114/336/289/584/163/488/original/7a7555c831071f33.jpg"
-  alt="Reading an excellent Go book and coding in Emacs"
-  style="width: 70%"
-/>
+<div>
+  <img
+    class="centered"
+    src="https://media.hachyderm.io/media_attachments/files/114/336/289/584/163/488/original/7a7555c831071f33.jpg"
+    alt="Reading an excellent Go book and coding in Emacs"
+    style="height: 800px"
+  />
+</div>
 
 
 ## Rego
@@ -124,7 +126,7 @@ then:
   class="centered"
   src="https://media.hachyderm.io/media_attachments/files/114/585/492/343/416/200/original/bb3cc161811991de.png"
   alt="Garuda Linux"
-  style="width: 70%"
+  style="height: 800px"
 />
 
 ## AI
