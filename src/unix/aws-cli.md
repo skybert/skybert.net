@@ -13,3 +13,41 @@ logged in:
 $ aws sts get-caller-identity
 ```
 
+# Tail logs
+
+Tail Cloudwatch logs, starting from 2 hours ago and keep reading
+them, pretty print these JSON log entries, but only the ones that have
+level `error`:
+
+```shell
+$ aws \
+  --profile foo-prod \
+  logs \
+  tail \
+  --follow \
+  --since 2h \
+  --filter-pattern '{ $.level = "error" }' | 
+  srv-bar-api \
+  cut -d' ' -f3- | 
+  jq
+```
+
+The filter works since the JSON log entry blobs have:
+```json
+{
+  "level": "error",
+}
+```
+
+# Expose AWS credentials
+
+Useful for scripts and programs that don't read `~/.aws/sso/cache`
+
+```text
+AWS_PROFILE=foo-prod aws configure export-credentials --format env
+export AWS_ACCESS_KEY_ID=ASDFAESAFQW
+export AWS_SECRET_ACCESS_KEY=aasdfaDFSASDFasdfasdfsdf
+export AWS_SESSION_TOKEN=..
+```
+
+You can then pipe it to `| sh` to set it in the shell.
