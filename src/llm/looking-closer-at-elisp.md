@@ -3,15 +3,27 @@ date: 2026-05-22
 category: llm
 tags: llm, emacs
 
-I wanted to optimise the way the dape debugger in Emacs works. I
-wanted single key navigation, e.g. `n` for next line, `i` for stepping
-into, `o` for stepping out and so on. Also wanted the debugger windows
-positioned differently, whith the locals browser taking up most of the
-vertical space.
+<img
+  class="centered"
+  src="/emacs/2026/emacs-dape-go.jpg"
+  alt="Emacs debugging Go code using dape"
+/>
 
-After an hour of vibing, testing and re-prompting Claude with the Opus
-4.7 model, it solved both use cases, vastly improving my debugging
-experience inside of Emacs.
+I wanted to optimise two things in the [Dape
+debugger](https://github.com/svaante/dape) for Emacs. I wanted single
+key navigation, e.g. `n` for next line, `i` for stepping into, `o` for
+stepping out and so on instead of `C-x C-a n`, with and without
+[repeat-mode](https://www.gnu.org/software/emacs/manual/html_node/emacs/Repeating.html). Secondly,
+I wanted the debugger windows positioned differently, whith the locals
+browser taking up most of the vertical space.
+
+After a couple of hours of vibing, testing and re-prompting Claude
+with the Opus 4.7 model. I made an elaborate prompt to start off with,
+in planning mode, I gave it my full emacs configuration, I gave it the
+source code of the exact version of dape I was using and I `/clear`ed
+the context when it was running on empty. After several iterations,
+Claude solved both my use cases, vastly improving my debugging
+experience inside of Emacs
 
 However, in the evening, I decided to look closer at the code it
 generated and whether all was necessary. Many years ago, I was fluent
@@ -21,7 +33,8 @@ I need.
 
 ## Rendering the debugger info windows
 
-Claude code for rendering the debugger GUI the way I wanted it:
+The finished Claude code for rendering the debugger GUI the way I
+wanted it looked like this:
 
 ```lisp
   (add-to-list 'display-buffer-alist '((category . dape-info-0) nil (window-width . 60)))
@@ -117,11 +130,18 @@ really only needed this bit:
                                        (window-width . 0.3)))
 ```
 
+It turned out there was no need for the `3` functions, the hooks and
+advice wrappers. Just three well thought out calls to the standard
+[display-buffer-alist](https://www.gnu.org/software/emacs/manual/html_node/elisp/Buffer-Display-Action-Alists.html)
+Emacs display rendering feature.
+
 ## Single character navigation shortcuts 
 
 Claude designed an advanced feature, with a new minor mode which kept
 track of the read only state of each buffer visisted, to ensure the
-user could type a single key without editing the actual buffer:
+user could type a single key without editing the actual buffer. Once
+the debug session ended, controlled, or abruptly, the code took head
+to re-enable the write-able flag on all buffers:
 
 ```lisp
   (defvar-keymap dape-session-map
@@ -172,7 +192,7 @@ on exit."
     (advice-add 'dape-kill :after (lambda (&rest _) (tkj/dape-toggle-all nil)))
 ```
 
-However, as all experienced Emacs users know, a mode key map has two
+However, as many experienced Emacs will tell you, a mode key map has two
 features: First, it's only available within a mode. In this case that
 meant while the dape mode was active, i.e. the debugging session.  And
 secondly, it'll listen for keys in that keymap. The key press will not
@@ -210,4 +230,6 @@ I'm happy I spent some time reading the AI generated code. The
 simplified lisp code still gives me the features I want, I have
 written it myself so I understand it fully rather than "Yes, that
 looks about right", and perhaps most importantly: There's less Lisp
-code now, making my Emacs configuration easier to maintain.
+code, making my Emacs configuration easier to maintain in the future.
+
+Happy hacking!
