@@ -9,7 +9,16 @@ key navigation, e.g. `n` for next line, `i` for stepping into, `o` for
 stepping out and so on instead of `C-x C-a n`, with and without
 [repeat-mode](https://www.gnu.org/software/emacs/manual/html_node/emacs/Repeating.html). Secondly,
 I wanted the debugger windows positioned differently, whith the locals
-browser taking up most of the vertical space.
+browser taking up most of the vertical space; I wanted the variables to be expanded 3 levels deep; and I wanted the rows aligned:
+
+<a href="/graphics/emacs/2026/emacs-dape-go-default-layout.png">
+  <img
+    class="centered"
+    src="/graphics/emacs/2026/emacs-dape-go-default-layout.png"
+    alt="Emacs debugging Go code using dape, default layout"
+    style="width: 800px; padding: 0.5em;"
+  />
+</a>
 
 After a couple of hours of vibing, testing and re-prompting Claude
 with the [Opus 4.7
