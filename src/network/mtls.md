@@ -6,8 +6,9 @@ tags: network, ssl, tls, mtls
 ## CN vs SAN
 
 [CN]() is the old id of who owns the certificate. Noone checks it
-anymore, but instead use the X509v3 extension, [SAN](), Subject
-Alternative Name.
+anymore, but instead use the X509v3 extension,
+[SAN](https://docs.openssl.org/master/man5/x509v3_config/#subject-alternative-name),
+Subject Alternative Name.
 
 To check the SAN of a certificate, do:
 
