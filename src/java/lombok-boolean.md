@@ -13,7 +13,7 @@ private boolean chocoloateLover;
 gives you the method:
 
 ```java
-public boolean isChocolateLover()
+public boolean isChocolateLover() {
 ```
 whereas the field:
 
