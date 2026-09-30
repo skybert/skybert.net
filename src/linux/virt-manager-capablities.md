@@ -19,3 +19,9 @@ I remedied the error above by installing the `quemu-desktop` package:
 ```text
 # root@mithrandir ~ # pacman -S qemu-desktop
 ```
+
+I then had to re-enable and restart `libvirtd`:
+```text
+# systemctl enable libvirtd
+# systemctl restart libvirtd
+```
