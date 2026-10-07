@@ -7,13 +7,13 @@ skybert — Torstein Krause Johansen
 
 
 ## SYNOPSIS
-Senior programmer and admin with strong skills in Unix, Java, Python, BASH and REST.
+Senior coder, architect and tech lead with strong skills in Unix, Java, Python, BASH, OAuth and REST.
 
 
 ## DESCRIPTION
 Loves complex Unix and Linux systems comprised of HTTP servers, web caches, load balancers, distributed memory caches, databases, LDAP, IAMs and application servers. Making them all play together is a treat.
 
-Enjoys developing Java and Python applications, taking a keen interest in open standards like HTTP, OAuth, HTML, XML and CSS.
+Enjoys developing Go, Java and Python applications, taking a keen interest in open standards like HTTP, OAuth and TLS.
 
 Significant experience with app security, integrating it with CI/CD and securing systems with Identity Access Management backends.
 
@@ -46,19 +46,20 @@ Significant experience with app security, integrating it with CI/CD and securing
 
 
 ## ROLES
---programmer Love creating programs to solve problems for our users.
+--programmer Loves creating programs to solve problems for our users.
 
---architect  Enjoy thinking big, focusing on how systems talk to each other, the input and output format flow and security.
+--architect  Enjoys thinking big, focusing on how systems talk to each other, the input and output format flow and security.
 
---educator   Love teaching, sharing what I know and helping others.
+--educator   Loves teaching, sharing what I know and helping others.
 
+--team-lead  Enjoys developing the team culture, making everyone feel seen and valuable, developing the team into a software delivering power house.
 
 ## TECHNOLOGY
 — Linux: Debian, Ubuntu, RHEL, CentOS, SuSE, Arch
 — UNIX: HP-UX, Solaris, FreeBSD, OpenBSD
 — Java: JAX-RS, JPA, XOM, Lombok, Dropwizard, Spring Boot/Batch/DI, Hibernate, JMS
 — Python: Flask, jinja2, lxml, PyYAML, requests
-— IAM: OAuth2, OpenID Connect, Keycloak, Gluu, Okta, Entra ID (Azure AD)
+— IAM: OAuth2, OpenID Connect, Keycloak, Gluu, Okta, Entra ID (Azure AD), mTLS
 — Database: Oracle, MySQL, Percona, MariaDB, PostgreSQL, Derby
 — In-memory: Redis, Memcached, Hazelcast
 — Queues: ActiveMQ, Kafka
@@ -69,7 +70,7 @@ Significant experience with app security, integrating it with CI/CD and securing
 — Containers: LXD, Docker, Podman, Kubernetes, Openshift
 — Virtual: KVM, VirtualBox, VMware
 — Network security: Metasploit, Burp suite, nmap, tcpdump, dig
-— Device security: nftables, iptables, LUKS, ssh
+— Device security: nftables, iptables, LUKS, SSH, mTLS
 — App security: Sonarqube, OWASP
 — Observability: Nagios/Icinga, Grafana, Dynatrace, Open Telemetry
 
