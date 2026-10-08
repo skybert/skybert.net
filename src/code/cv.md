@@ -15,7 +15,7 @@ Loves complex Unix and Linux systems comprised of HTTP servers, web caches, load
 
 Enjoys developing Go, Java and Python applications, taking a keen interest in open standards like HTTP, OAuth and TLS.
 
-Significant experience with app security, integrating it with CI/CD and securing systems with Identity Access Management backends.
+Significant experience with app security, CI/CD, cloud and authorization servers.
 
 
 ## EXPERIENCE
@@ -46,20 +46,21 @@ Significant experience with app security, integrating it with CI/CD and securing
 
 
 ## ROLES
---programmer Loves creating programs to solve problems for our users.
+--programmer Loves creating programs solving problems for real users.
 
 --architect  Enjoys thinking big, focusing on how systems talk to each other, the input and output format flow and security.
 
 --educator   Loves teaching, sharing what I know and helping others.
 
---team-lead  Enjoys developing the team culture, making everyone feel seen and valuable, developing the team into a software delivering power house.
+--teamlead  Enjoys developing a team culture, making everyone feel seen and valuable, turning the group of coders into a software delivering power house.
+
 
 ## TECHNOLOGY
 — Linux: Debian, Ubuntu, RHEL, CentOS, SuSE, Arch
 — UNIX: HP-UX, Solaris, FreeBSD, OpenBSD
 — Java: JAX-RS, JPA, XOM, Lombok, Dropwizard, Spring Boot/Batch/DI, Hibernate, JMS
 — Python: Flask, jinja2, lxml, PyYAML, requests
-— IAM: OAuth2, OpenID Connect, Keycloak, Gluu, Okta, Entra ID (Azure AD), mTLS
+— Identity: OAuth2, OpenID Connect, Keycloak, Gluu, Okta, Entra ID (Azure AD), OPA/Rego, SpiceDB.
 — Database: Oracle, MySQL, Percona, MariaDB, PostgreSQL, Derby
 — In-memory: Redis, Memcached, Hazelcast
 — Queues: ActiveMQ, Kafka
@@ -86,9 +87,9 @@ Significant experience with app security, integrating it with CI/CD and securing
 
 ## SEE ALSO
 — 🕸️ https://skybert.net
-— 🦣 https://hachyderm.io/@skybert
 — 🎥 https://youtube.com/@skybert
+— 🦣 https://hachyderm.io/@skybert
 — ⚒️ https://github.com/skybert
 — 🛠️ https://gitlab.com/skybert
 
-# BSD                       2025-11-05                          BSD
+# BSD                       2026-10-08                          BSD

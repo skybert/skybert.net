@@ -52,7 +52,7 @@ md2html() {
   md="${_cwd}"/$(basename "${0}" .sh).md
   cat "${md}" |
     LC_ALL=en_GB.UTF-8 sed -r \
-        -e 's#(https://.*)#<a href="\1">\1</a>#' \
+        -e 's#https://(.*)#<a href="https://\1">\1</a>#' \
         -e 's~^## (.*)~<h2>\1</h2>~' \
         -e 's~^#(.*)~<h1>\1</h1>~' \
         -e 's~^— (.*)~<li>\1</li>~' \
