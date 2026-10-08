@@ -73,7 +73,7 @@ main() {
   if test -x /opt/homebrew/bin/gsed; then
     gsed -i 's#<?xml version="1.0"?>#<!doctype html>#' "${_cwd}/cv.html"
   else
-    gsed -i 's#<?xml version="1.0"?>#<!doctype html>#' "${_cwd}/cv.html"
+    sed -i 's#<?xml version="1.0"?>#<!doctype html>#' "${_cwd}/cv.html"
   fi
 }
 
