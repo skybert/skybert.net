@@ -66,7 +66,7 @@ Significant experience with app security, CI/CD, cloud and authorization servers
 — Queues: ActiveMQ, Kafka
 — LDAP: OpenLDAP, Active Directory
 — Web: Apache httpd, Nginx, lighthttpd, Varnish, Squid
-— Build: Jenkins, Nexus, APT and YUM repo management
+— Build: GitHub actions, Jenkins, Nexus, APT and YUM repo management
 — BASH: sed, awk, curl, jq
 — Containers: LXD, Docker, Podman, Kubernetes, Openshift
 — Virtual: KVM, VirtualBox, VMware
