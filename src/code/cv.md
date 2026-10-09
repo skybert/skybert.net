@@ -69,7 +69,7 @@ Significant experience with app security, CI/CD, cloud and authorization servers
 — Web: Apache httpd, Nginx, lighthttpd, Varnish, Squid
 — Build: GitHub actions, Jenkins, Nexus, APT and YUM repo management
 — Package creation: Solaris, DEB, RPM
-— BASH: sed, awk, curl, jq
+— BASH: sed, awk, curl, jq, yq, json_xs, xmllint, xmlstarlet
 — Containers: LXD, Docker, Podman, Kubernetes, Openshift
 — Virtual: KVM, VirtualBox, VMware
 — Network security: Metasploit, Burp suite, nmap, tcpdump, dig
