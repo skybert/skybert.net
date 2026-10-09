@@ -60,6 +60,7 @@ Significant experience with app security, CI/CD, cloud and authorization servers
 — UNIX: HP-UX, Solaris, FreeBSD, OpenBSD
 — Java: JAX-RS, JPA, XOM, Lombok, Dropwizard, Spring Boot/Batch/DI, Hibernate, JMS
 — Python: Flask, jinja2, lxml, PyYAML, requests
+— Go: Gin, Huma, Bubble Tea
 — Identity: OAuth2, OpenID Connect, Keycloak, Gluu, Okta, Entra ID (Azure AD), OPA/Rego, SpiceDB.
 — Database: Oracle, MySQL, Percona, MariaDB, PostgreSQL, Derby
 — In-memory: Redis, Memcached, Hazelcast
@@ -67,6 +68,7 @@ Significant experience with app security, CI/CD, cloud and authorization servers
 — LDAP: OpenLDAP, Active Directory
 — Web: Apache httpd, Nginx, lighthttpd, Varnish, Squid
 — Build: GitHub actions, Jenkins, Nexus, APT and YUM repo management
+— Package creation: Solaris, DEB, RPM
 — BASH: sed, awk, curl, jq
 — Containers: LXD, Docker, Podman, Kubernetes, Openshift
 — Virtual: KVM, VirtualBox, VMware
