@@ -1,4 +1,4 @@
-title: Remove Default Mode Shortcuts
+title: Remove Default Emacs Mode Shortcuts
 date: 2026-10-14
 category: emacs
 tags: emacs
