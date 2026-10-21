@@ -70,12 +70,12 @@ Significant experience with app security, CI/CD, cloud and authorization servers
 — Build: GitHub actions, Jenkins, Nexus, APT and YUM repo management
 — Package creation: Solaris, DEB, RPM
 — BASH: sed, awk, curl, jq, yq, json_xs, xmllint, xmlstarlet
-— Containers: LXD, Docker, Podman, Kubernetes, Openshift
-— Virtual: KVM, VirtualBox, VMware
+— Containers: LXD, Docker, Podman, Kubernetes, Openshift, ECS
+— Virtual: KVM, VirtualBox, VMware, AWS
 — Network security: Metasploit, Burp suite, nmap, tcpdump, dig
 — Device security: nftables, iptables, LUKS, SSH, mTLS
 — App security: Sonarqube, OWASP
-— Observability: Nagios/Icinga, Grafana, Dynatrace, Open Telemetry
+— Observability: Nagios/Icinga, Grafana, Dynatrace, Open Telemetry, Splunk
 
 ## PERFORMANCE TUNING
 — Allow running Linux on work machine
