@@ -50,7 +50,7 @@ Significant experience with app security, CI/CD, cloud and authorization servers
 
 --architect  Enjoys thinking big, focusing on how systems talk to each other, the input and output format flow and security.
 
---educator   Loves teaching, sharing what I know and helping others.
+--mentor   Loves teaching, sharing what I know and helping others.
 
 --teamlead  Enjoys developing a team culture, making everyone feel seen and valuable, turning the group of coders into a software delivering power house.
 

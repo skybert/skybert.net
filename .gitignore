@@ -5,6 +5,7 @@ generated
 hs_err_*.log
 missfont.log
 output
+src/code/cv.html
 src/graphics/2016/debian-logo.png
 src/graphics/2017/oss-summit
 src/pages/recommended-reading.md
