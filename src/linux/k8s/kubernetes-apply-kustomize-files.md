@@ -20,7 +20,7 @@ Apply changes in local files against the k8s cluster. First, be sure
 that we're using the correct k8s cluster:
 
 ```text
-$ kubectl config use-context kind-identity-fga
+$ kubectl config use-context kind-foo-fga
 $ kubectl apply -k k8s/overlays/local/spicedb-operator
 ```
 
